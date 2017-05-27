@@ -25,8 +25,8 @@ $ sudo tar zxvf jdk-8u131-linux-arm32-vfp-hflt.tar.gz -C /opt
 
 2. Make the newly installed javac and java be known to the Debian alternatives system:
 ```
-$ sudo update-alternatives --install /usr/bin/javac /opt/jdk1.8.0_131/bin/javac 1
-$ sudo update-alternatives --install /usr/bin/java /opt/jdk1.8.0_131/bin/java 1
+$ sudo update-alternatives --install /usr/bin/javac javac /opt/jdk1.8.0_131/bin/javac 1
+$ sudo update-alternatives --install /usr/bin/java java /opt/jdk1.8.0_131/bin/java 1
 ```
 
 3. Interactively specify these alternatives to be the default ones:
