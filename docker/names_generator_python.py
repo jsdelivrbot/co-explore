@@ -612,6 +612,8 @@ surnames = [
 
 '''This loop will mix adjectives and surnames. In case the result is "boring_wozniak" 
 the program will protest and pick another name'''
+
+
 while True:
     adjective = random.choice(adjectives)
     surname = random.choice(surnames)
