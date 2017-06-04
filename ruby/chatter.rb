@@ -1,3 +1,5 @@
+require 'stringio'
+
 def try_chatter_logic(chatter_raymond, something_else)
 
   output_capture = StringIO.new
