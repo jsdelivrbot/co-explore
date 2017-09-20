@@ -1,0 +1,6 @@
+Make another implementation of the turtle module that uses very high speed rendering.
+Then existing drawings will still work, but will get done much faster.
+
+This is a little like the Agg rendering thingy behind Matplotlib.
+
+I should look at that code for comparison.
