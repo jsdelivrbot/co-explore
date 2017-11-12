@@ -1,0 +1,42 @@
+@startuml
+
+class Bike {
+report_broken()
+fix()
+working?()
+broken?()
+}
+
+object Transfer <<module>> {
+    transfer(num, from, to, type)
+    get(num)
+    put()
+}
+
+
+class BikeStore {
+    capacity
+    all
+    broken
+    working
+    put(bikes)
+}
+
+class DockingStation {
+    store
+}
+
+class Garage {
+    store
+
+    fix_bikes(num)
+}
+
+
+class Van {
+    store
+
+    transfer(num, from, to)
+}
+
+@enduml
