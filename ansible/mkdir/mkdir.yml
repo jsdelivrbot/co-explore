@@ -1,0 +1,20 @@
+# Playing with Ansible commands 
+---
+- hosts: all
+  remote_user: ubuntu
+  tasks:
+  - name: Create dir
+    become: yes
+    file:
+      path: /myapp
+      state: directory
+      owner: ubuntu
+      group: ubuntu
+  
+  - name: list the root folder
+    command: ls -l /
+    register: root_listing
+
+  - debug:
+      var: root_listing
+        
