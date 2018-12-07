@@ -5,6 +5,6 @@ A coding playground
 Try using the following command:
 
 ```
-\curl -sSL https://rawgit.com/AlboSoc/co-explore/master/install/install.sh | bash
+\curl -sSL https://cdn.jsdelivr.net/gh/AlboSoc/co-explore/install/install.sh | bash
 ```
 
